@@ -1,0 +1,27 @@
+{
+  "name": "easy-proj4",
+  "version": "0.0.9",
+  "description": "更容易的使用proj4转换投影坐标",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/proj4": "^2.5.5",
+    "proj4": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenBoy0526/easy-proj4.git"
+  }
+}
